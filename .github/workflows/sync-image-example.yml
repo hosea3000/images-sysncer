@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/jc21/nginx-proxy-manager:latest docker://ccr.ccs.tencentyun.com/self-hosea3000/jc21/nginx-proxy-manager:latest
+        skopeo copy docker://ghcr.io/toeverything/affine-graphql:stable docker://ccr.ccs.tencentyun.com/self-hosea3000/toeverything/affine-graphql:stable
