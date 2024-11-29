@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker:neosmemo/memos:stable docker://ccr.ccs.tencentyun.com/self-hosea3000/memos:stable
+        skopeo copy docker://docker.io/neosmemo/memos:stable docker://ccr.ccs.tencentyun.com/self-hosea3000/memos:stable
