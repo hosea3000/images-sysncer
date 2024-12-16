@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/neosmemo/memos:0.19 docker://ccr.ccs.tencentyun.com/self-hosea3000/memos:0.19
+        skopeo copy docker://docker.io/golang/golang:1.22-alpine3.16 docker://ccr.ccs.tencentyun.com/self-hosea3000/golang:1.22-alpine3.16
